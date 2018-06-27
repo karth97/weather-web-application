@@ -1,0 +1,60 @@
+
+.nvr {
+    width:355px;
+    margin:10px;
+}
+
+
+.logo ,.logo_type 
+{
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo 
+{
+    margin-top: 6px;
+    width: 50px;
+    margin-right: 10px; 
+}
+ 
+.site_title 
+{
+    margin-bottom:9px;
+    font-size:1.3em;
+    font-family:sans-serif serif;
+    color:#00c8ff; 
+}
+ 
+.site_description 
+{
+    font-size: 10px;
+    display: block;
+    color: #bfc1c8; 
+}
+
+.rotate{
+    -moz-transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+}
+
+.rotate.down{
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.listonhover:hover {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.listonhover {
+    background:'#1b1d28';
+    border-radius: 3px;
+    -webkit-transition:margin 0.2s; /* Safari */
+    transition: margin 0.2s;
+}
